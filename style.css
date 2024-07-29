@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+   
+}
+ .navbar ul li{
+  display:inline-block;
+    margin: 40px;
+   
+    font-size: 20px;
+   
+ }
+ .navbar ul li a{
+   color: white;
+   text-decoration: none;
+    
+ }
+ .navbar ul  :hover{
+    color: rgb(230, 210, 210);
+  }
+
+ .search{
+    margin-right: 10px;
+ }
+ .search input{
+    height: 30px;
+    width: 250px;
+ }
+
+
+ .box1{
+    border: 2px solid black;
+    display:inline-block;
+    margin: 100px 0px 0px 90px;
+    box-shadow: 5px 5px 18px;
+
+ }
+ .box1 img{
+    height: 300px;
+    width: 250px;
+ }
+
+ .box1 a{
+    font-size: 30px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+ }
+ .box1 p{
+    font-size: 20px;
+    margin: 5px 0 0 20px;
+ }
+
+ .box1  :hover{
+    color: brown;
+ }
+
+ .add{
+   
+    height: 640px;
+   
+   background-image: url(pexels-maksgelatin-4348630.jpg);
+    background-size: cover;
+ }
+
+ footer{
+    margin-top: 100px;
+    background: #191818;
+    color: aliceblue;
+    text-align: center;
+ }
+ .info{
+    height: 300px;
+    align-content: center;
+ }
+ .info p{
+    font-size: 30px;
+    margin: 10px;
+ }
